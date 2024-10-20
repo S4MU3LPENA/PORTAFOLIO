@@ -1,0 +1,680 @@
+
+/*MEDIA QUERY PARA RESPONSIVE-->*/     
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+/*DESKTOP*/
+
+@media screen and (min-width: 1024px){   /* Min width a partir de -->*/
+
+    .m-sm-0{
+        margin: 0rem !important;
+    }
+    
+    .mb-sm-5{
+        margin-bottom: 3rem !important;
+    }
+
+
+    .ms-xl-el{
+        margin-left: 5rem !important;
+        
+    }
+
+    .container-header{
+        position: absolute;
+        top: 25rem;
+        left: 0rem;
+        width: 40%;
+    }
+
+
+
+/*ESTILOS A ABOUT */
+
+    .ms-xl-ab{
+        margin-left: 10rem !important;
+    }
+
+    .w-xl-ab{
+        width: 30rem !important;
+    }
+
+    .about-xl{
+        margin-top: 10rem;
+  
+    }
+
+
+
+    .container-header{
+        position: absolute;
+        top: 20rem;
+        left: 10rem;
+        width: 40%;
+    }
+
+    .h1-xl-fs{
+        font-size: 80px;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+
+    .p-xl-fs{
+        font-size: 30px;
+    }
+
+    .icons-div{
+        position: absolute;
+        justify-content: end;
+        left: 98rem;
+        top: 1.5rem;
+    }
+
+
+}
+.fi{                                 /*fi clase de los iconos uno por uno*/
+    margin-left: 1rem;
+}
+
+.max-image{            /*v = viewport sona rectangular visible de la pagina */
+    height: 100vh !important;
+    width: 100vw !important;
+    max-width: 100%;
+}
+
+/*TABLET*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    .container-header{
+        position: absolute;
+        top: 20rem;
+        left: 0rem;
+        width: 100rem;
+    }
+
+    .h1-md-fs{
+        font-size: 80px;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+
+    .p-md-fs{
+        font-size: 30px;
+    }
+
+    .icons-div{
+        position: absolute;
+        justify-content: end;
+        left: 30rem;
+        top: 1.5rem;
+    }
+
+
+
+}
+
+/*SMARTPHONE*/
+
+@media screen and (max-width: 767px){
+
+    .container-header{
+        position: absolute;
+        top: 20rem;
+        left: 0rem;
+        width: 100rem;
+    }
+
+    .h1-xl-fs{
+        font-size: 50px;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+
+    .p-sm-fs{
+        font-size: 20px;
+    }
+
+    .icons-div{
+        position: absolute;
+        top: 1.2rem;
+        left: 8rem;
+    }
+
+    .fi{                                 /*fi clase de los iconos uno por uno*/
+        margin-left: 0rem;
+    }
+
+    .site-footer{
+      margin-top: 40rem;
+    }
+
+
+    
+   
+}
+
+.ftn{
+    font-family: 'Muli', sans-serif;
+}
+
+
+.img-col{  
+    max-width: 540px; 
+    max-height: 202px;
+}
+
+
+
+
+  /*footer*/
+
+  
+
+.site-footer
+{
+  background-color:rgb(33, 37, 41);
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+/*HACER BORROSA LA IMAGEN DEL ABOUT*/
+.img-me{
+  filter: blur(15px);
+}
+
+
+
+.custom-shape-divider-bottom-1725674834 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1725674834 svg {
+    position: relative;
+    display: block;
+    width: calc(144% + 1.3px);
+    height: 138px;
+}
+
+.custom-shape-divider-bottom-1725674834 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+body {
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  
+}
+
+.navbar .nav-link {
+  color: white;
+  z-index: 100;
+}
+
+.main-section {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 0 50px;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+}
+
+.container-header {
+  max-width: 50%;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.max-image {
+  border-radius: 15px;
+}
+
+/* Navbar */
+.navbar {
+  z-index: 100; /* Asegura que la barra de navegación esté por encima del shape */
+}
+
+/* Shape Divider */
+.custom-shape-divider-bottom-1725675414 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: 1; /* Asegura que el shape esté detrás de otros elementos */
+}
+
+.custom-shape-divider-bottom-1725675414 svg {
+  position: relative;
+  display: block;
+  width: calc(144% + 1.3px);
+  height: 138px;
+}
+
+.custom-shape-divider-bottom-1725675414 .shape-fill {
+  fill: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+  .main-section {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .container-header {
+      max-width: 100%;
+  }
+}
+
+
+.amaranth-regular {
+  font-family: "Amaranth", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Asegura que la imagen sea responsiva */
+.logo-img {
+  max-width: 159px; /* Ajusta el tamaño del logo */
+  height: auto;
+}
+
+/* Ajusta el espacio del contenedor del logo */
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+}
+
+/* Opcional: Ajustes específicos para pantallas pequeñas */
+@media (max-width: 768px) {
+  .logo-img {
+      max-width: 100px; /* Tamaño más pequeño en móviles */
+  }
+}
+
+
+/* MAIN SECTION */
+
+.main-section {
+  height: 100vh; /* Altura completa de la ventana */
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  background-color: #f5f5f5; /* Cambia este color de fondo si lo deseas */
+}
+
+.center-content {
+  text-align: center;
+}
+
+.main-title {
+  color: #f5f5f5; /* Color del texto */
+  font-family: 'Amaranth', sans-serif; /* Cambia la fuente si es necesario */
+  font-size: 20rem;
+}
+
+
+
+
+.contenedor-texto .sisoy{
+  font-weight: bold;
+  color: orange;
+}
+
+.mserv{
+  font-weight: bold;
+  color: orange;
+}
+
+
+@media (max-width: 768px) {
+  .main-title {
+      font-size: 60vw;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-title {
+      font-size: 20vw;
+  }
+}
+
+
+.fade-in {
+	-webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/* Sección de proyectos */
+.projects-section {
+  background-color: #101010; /* Color de fondo oscuro */
+  color: #fff; /* Texto blanco */
+  padding: 50px 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.projects-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.projects-header h2 {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  color: #f0f0f0;
+}
+
+/* Contenedor de las tarjetas */
+.projects-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Tarjetas de proyectos */
+.project-card {
+  background-color: #252525;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+/* Estilos para el título del proyecto */
+.project-title {
+  font-size: 1.5rem;
+  color: #fe9d6f; /* Puedes personalizar el color */
+  margin-bottom: 10px;
+}
+
+/* Estilo para la fecha */
+.project-date {
+  font-size: 1rem;
+  color: #bfbfbf;
+  margin-bottom: 15px;
+}
+
+/* Descripción del proyecto */
+.project-description {
+  font-size: 1rem;
+  color: #d0d0d0;
+  margin-bottom: 20px;
+}
+
+/* Iconos de tecnologías */
+.tech-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tech-icons img {
+  width: 40px; /* Tamaño de los íconos */
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.tech-icons img:hover {
+  transform: scale(1.2);
+}
+
+.projects-section {
+  position: relative; /* Asegura que el position: absolute del shape-divider esté en relación con esta sección */
+  overflow: hidden; /* Evita que el shape-divider se salga de la sección */
+}
+
+.custom-shape-divider-top-1725763438 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: 1; /* Asegura que el shape-divider esté detrás del contenido */
+}
+
+.custom-shape-divider-top-1725763438 svg {
+  position: relative;
+  display: block;
+  width: calc(141% + 1.3px);
+  height: 85px;
+}
+
+.custom-shape-divider-top-1725763438 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.projects-container {
+  position: relative; /* Asegura que el contenido esté sobre el shape-divider */
+  z-index: 2; /* Asegura que el contenido esté sobre el shape-divider */
+}
+
+.recent-proyect-title{
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+
+/*MIS SERVICIOS */
+
+.services-section {
+  margin-top: 50px; /* Añadir margen superior para separar de los proyectos */
+  margin-top: 100px;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center; /* Centra la barra de búsqueda horizontalmente */
+  margin-bottom: 40px;
+
+}
+
